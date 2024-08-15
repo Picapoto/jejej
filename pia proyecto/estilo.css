@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: #f4f4f4;
+    color: #333;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #5cb85c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 20px;
+}
+
+.feature {
+    margin: 20px 0;
+}
+
+.subscribe {
+    background: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.subscribe form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.subscribe form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.subscribe form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subscribe .btn {
+    padding: 10px 20px;
+    background: #5cb85c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.language-switcher {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.lang-btn {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.lang-btn:hover {
+    background: #555;
+}
